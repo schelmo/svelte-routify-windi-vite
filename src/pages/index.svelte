@@ -1,9 +1,11 @@
-<header class="py-12 text-4xl text-center">
+<header class="windi-py-12 windi-text-4xl windi-text-center">
   Application Starter Template
-  <img src="/favicon.png" alt="Reepolee" class="py-4 mx-auto" />
+  <img src="/favicon.png" alt="Reepolee" class="windi-py-4 windi-mx-auto" />
 </header>
 
 <main>
+  <div class="font-bold">Classes without prefix will still be generated</div>
+
   <p>A starter template for Svelte Application, uses Routify file-based router, WindiCSS to compile TailwindCSS and Vite.</p>
 
   <p>
@@ -37,13 +39,12 @@
 
 <style>
   main {
-    @apply p-8 text-xl;
+    @apply windi-p-8 windi-text-xl;
   }
-
   p {
-    @apply my-4;
+    @apply windi-my-4;
   }
-
+  /* you can still use @apply without prefix */
   a {
     @apply text-reepolee-500 font-bold;
   }

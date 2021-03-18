@@ -29,12 +29,12 @@
 
 <style>
   p {
-    @apply p-8;
+    @apply windi-p-8;
   }
   pre {
-    @apply mx-8 p-8 border rounded border-gray-400;
+    @apply windi-mx-8 windi-p-8 windi-border windi-rounded windi-border-gray-400;
   }
-
+  /* you can still use @apply without prefix */
   button {
     @apply bg-red-500 text-white m-8 p-2 border border-gray-200 rounded;
   }

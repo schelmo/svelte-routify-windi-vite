@@ -1,4 +1,5 @@
 module.exports = {
+  prefix: 'windi-',
   theme: {
     extend: {
       colors: {
